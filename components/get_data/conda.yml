@@ -1,8 +1,6 @@
 name: download_file
 channels:
   - conda-forge
-  - pyarrow
-  - apache-arrow
   - defaults
 dependencies:
   - pip=24.3.1

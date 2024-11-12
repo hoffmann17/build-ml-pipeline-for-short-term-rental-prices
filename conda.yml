@@ -7,8 +7,7 @@ dependencies:
   - pyyaml
   - hydra-core=1.3.2
   - pip=23.3.1
-  - cmake
-  - pyarrow
   - pip:
+      - pyarrow --config-settings=build_ext="-DPYARROW_BUILD_FLIGHT=OFF" --config-settings=build_ext="-DPYARROW_BUILD_DATASET=OFF" --config-settings=build_ext="-DPYARROW_BUILD_ACERO=OFF"
       - mlflow==2.8.1
       - wandb==0.16.0

@@ -1,6 +1,8 @@
 name: components
 channels:
   - conda-forge
+  - pyarrow
+  - apache-arrow
   - defaults
 dependencies:
   - python=3.10

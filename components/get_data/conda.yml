@@ -6,6 +6,7 @@ dependencies:
   - pip=24.3.1
   - requests=2.24.0
   - pip:
+      - cmake
       - mlflow==2.17.2
       - wandb==0.18.6
       - pyarrow --config-settings=build_ext="-DPYARROW_BUILD_FLIGHT=OFF" --config-settings=build_ext="-DPYARROW_BUILD_DATASET=OFF" --config-settings=build_ext="-DPYARROW_BUILD_ACERO=OFF"

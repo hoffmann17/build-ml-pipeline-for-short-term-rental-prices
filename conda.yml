@@ -12,6 +12,6 @@ dependencies:
   
   - pip:
       - cmake
-      - pyarrow --config-settings=build_ext="-DPYARROW_BUILD_FLIGHT=OFF" --config-settings=build_ext="-DPYARROW_BUILD_DATASET=OFF" --config-settings=build_ext="-DPYARROW_BUILD_ACERO=OFF"
+      - pyarrow #--config-settings=build_ext="-DPYARROW_BUILD_FLIGHT=OFF" --config-settings=build_ext="-DPYARROW_BUILD_DATASET=OFF" --config-settings=build_ext="-DPYARROW_BUILD_ACERO=OFF"
       - mlflow==2.17.2
       - wandb==0.18.6
